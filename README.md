@@ -1,2 +1,2 @@
 # Python-Tkinter
- Humber College App
+ Designed Humber College Course Registration App by using Python Tkinter framework and mySql database
