@@ -1,7 +1,9 @@
-import pymysql as sql
+#import pymysql as sql
+import mysql.connector
 
 def getcon():
-    con=sql.connect(host='localhost',port=3306,user='root',password='12345678',database='humber_college_app') #humber_college_app
+    con=mysql.connector.connect(host='localhost', user='root', password='12345678')
+    #con=sql.connect(host='localhost',port=3306,user='root',password='12345678',database='humber_college_app') #humber_college_app
     return con
 
 def create_table():
